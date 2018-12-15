@@ -25,7 +25,7 @@ img{
     
 }
 
-p{
+.wrapper p{
    
     background:thistle;
   
@@ -34,4 +34,12 @@ p{
     padding: 15px;
 }
 
+#service1{
+    background: pink;
+}
 
+.services h2, .services p{
+    color: blue;
+    margin: 10px, 0;
+    text-align: center;
+}
