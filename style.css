@@ -21,15 +21,32 @@ img{
     padding-top: 16.4px;
 
     padding-right: 12px;
-    float: inherit;
+    float: right;
     
 }
 
 p{
    
-    background: #fff;
+    background:thistle;
   
  
     line-height: 1.56em;
     padding: 15px;
+}
+
+
+.orange{
+    background: orange;
+}
+
+.white{
+    background: white;
+}
+
+.green{
+    background: green;
+}
+
+.box{
+    height: 10px;
 }
