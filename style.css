@@ -28,12 +28,10 @@ img{
  p{
    
     background:thistle;
-  
  
     line-height: 1.56em;
     padding: 15px;
 }
-
 
 .services h2, .services p{
     color: blue;
@@ -46,7 +44,12 @@ img{
     background-color: cornflowerblue;
     width: 29%;
     margin: 1%;
-    padding: 1%;
-    
-height: 140px;
+    padding: 1%;   
+    height: 140px;
+}
+
+.content{
+    padding: 10px;
+    background-color: aqua;
+    clear: both;
 }
