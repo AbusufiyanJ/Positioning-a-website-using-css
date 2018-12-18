@@ -46,6 +46,7 @@ p{
     margin: 1%;
     padding: 1%;   
     height: 140px;
+    position: relative;
 }
 
 .services:after{
@@ -55,6 +56,20 @@ p{
     clear: both;
 
 }
+
+.service:nth-child(1){
+    top: 25px;
+}
+
+.service:nth-child(2):hover{
+    top: 25px;
+    pointer-events: stroke;
+}
+
+.service:nth-child(3){
+    top: 25px;
+}
+
 .content{
     float: left;
     padding: 10px;
@@ -79,6 +94,7 @@ section , aside{
     width: 46%;
     float: left;
 }
+
 
 aside .image2{
     margin-top: 6%;
